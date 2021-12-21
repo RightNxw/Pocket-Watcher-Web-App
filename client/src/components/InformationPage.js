@@ -9,7 +9,7 @@ const InformationPage = () => {
   const params = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:3001/api?address=${params.wallet}`)
+    fetch(`/api?address=${params.wallet}`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);
