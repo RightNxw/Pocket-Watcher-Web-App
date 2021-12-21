@@ -1,0 +1,15 @@
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer {
+  padding-top: 14%;
+  width: 750px;
+  text-align: center;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}

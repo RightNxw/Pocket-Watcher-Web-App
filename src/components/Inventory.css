@@ -1,0 +1,42 @@
+.inventory {
+  padding-top: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.nft {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  background-color: #000000;
+  border-radius: 10pt;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.nftData {
+  width: 90%;
+  height: 54%;
+  position: absolute;
+  padding-left: 10px;
+  bottom: 0;
+}
+
+.nftData {
+  font-size: 14pt;
+  color: white;
+  background-color: #000000;
+}
+
+.imageNft {
+  margin-top: 10px;
+  width: 40%;
+  border-radius: 25%;
+}
