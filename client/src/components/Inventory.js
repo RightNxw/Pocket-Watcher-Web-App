@@ -1,10 +1,11 @@
 import "./Inventory.css";
 const Inventory = (props) => {
+  console.log(props)
   return (
     <div className="nft">
       <img className="imageNft" src={props.inventoryData.image} alt={"react"} />
       <div className="nftData">
-        <p className="name">Name: {props.inventoryData.name}</p>
+        <a className="name"  href={`https://opensea.io/collection/${props.inventoryData.slug}`}>Name: {props.inventoryData.name}</a>
         <p className="amount">Amount: {props.inventoryData.amount}</p>
         <p className="floor">Floor: {props.inventoryData.floor}</p>
       </div>
